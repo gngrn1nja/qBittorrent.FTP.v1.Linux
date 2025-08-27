@@ -1,0 +1,73 @@
+
+ ‹€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€‹
+ €≤≤ € ‹‹‹ﬂ                                                          ﬂ‹‹‹ € ≤≤€
+ €€≤ €€ﬂ                           PRESENTS:                            ﬂ€€ ≤€€
+ €€≤ €›                     qBittorrent.FTP.v1.Linux                     ﬁ€ ≤€€
+ €€≤ €€                                                                  €€ ≤€€
+ ﬂ€€‹≤ ﬂ‹                                                              ‹ﬂ ≤‹€€ﬂ
+    ﬂ≤  ﬁ›                Coder .. .....: gingerninja                 ﬁ›  ≤ﬂ
+     ﬂ  ﬁ›                Type .........: Bash script                 ﬁ›  ﬂ
+       ‹ﬂ                 System .......: Linux                         ﬂ‹
+     ‹                    Release Date..: 27-08-2025                      ‹
+                          Size..........: 26.4 MB
+     ﬂ                                                                    ﬂ
+     €                                                                    €
+   ‹‹€€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€€‹‹
+ ‹€≤ €ﬂ‹                                                                ‹ﬂ€ ≤€‹
+ €€≤ € ﬁ›  €ﬂ‹ €ﬂ‹ ﬂ€ﬂ €ﬂﬂ ‹ﬂﬂ ‹                                     ﬂ ﬁ› € ≤€€
+ €€≤ €‹ﬂ   € € € €  €  €ﬂ  ﬂﬂ€                                  ‹   ‹   ﬂ‹€ ≤€€
+  ﬂ€ €›    ﬂ ﬂ  ﬂﬂ  ﬂ  ﬂﬂﬂ ﬂﬂﬂ ﬂ                                   ﬂ≤ﬂ   ﬁ€ €ﬂ
+    ﬂ€                                                                    €ﬂ  ‹
+ ﬂ   ﬁ› ‹                                                              ‹ ﬁ›
+    ‹ﬂ                                                                    ﬂ‹
+                       * Requires qbittorrent & lftp *
+
+     1) Setup qbittorrent categories with corresponding folders to match 
+     the FTP site. The "iSO" category in qbittorrent would match the 
+     "/iSO" folder on the FTP site. 
+     
+     2) Connect to ftp and make a bookmark:
+         $ lftp <user>:<pass>@ftpsite.com:<port>
+         $ bookmark add <bookmark name>
+     
+     3) Move this script somewhere accessable by you qbittorrent user.
+      
+     4) Configure Run external program on torrent finished with:
+         /home/qbtuser/qbittorrent.ftp.sh "%K" "%N" "%R" "%L"
+
+    ‹                                                                      ‹
+    ﬁ›                                                                    ﬁ›
+   ‹€€€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€€€‹
+ ‹€≤ €   ‹ﬂ                                                          ﬂ‹   € ≤€‹
+ €€≤ €‹ﬂﬂ  ‹ﬂﬂ €ﬂ‹ €ﬂ‹ € € €ﬂ€ ‹                              ‹   ‹    ﬂﬂ‹€ ≤€€
+ €€≤ €›    € € €ﬂ‹ € € € € €ﬂ                                    ﬂ≤ﬂ     ﬁ€ ≤€€
+  ﬂ€ €      ﬂﬂ ﬂ ﬂ  ﬂﬂ ﬂﬂ  ﬂ   ﬂ                           ﬂ              € €ﬂ
+    ﬂ€  ﬂ                                                           ‹  ﬂ  €ﬂ
+  ﬂ  ﬁ›                                                        ﬂ   ﬂ≤ﬂ   ﬁ›  ﬂ
+    ‹ﬂ                                                                    ﬂ‹
+                                                                     ﬂ
+
+     
+       ‹                                                                 ‹
+
+     ﬂ                                                                    ﬂ
+       ﬂ‹                                                              ‹ﬂ
+     ‹  ﬁ›                                                            ﬁ›  ‹
+    ‹≤  ﬁ›                                                            ﬁ›  ≤‹
+ ‹€€ﬂ≤ ‹ﬂ                                                              ﬂ‹ ≤ﬂ€€‹
+ €€≤ €€                                                                  €€ ≤€€
+ €€≤ €›                                                                  ﬁ€ ≤€€
+ €€≤ €€‹                                                                ‹€€ ≤€€
+ €≤≤ € ﬂﬂﬂ‹            ‹                                ‹            ‹ﬂﬂﬂ € ≤≤€
+ ﬂ€€€€€€€€€€€€€‹    ‹ﬂ                                    ﬂ‹    ‹€€€€€€€€€€€€€ﬂ
+          €  €ﬂ€€‹‹€›                                      ﬁ€‹‹€€ﬂ€  €
+          ‹  ≤   ﬂ≤€€‹‹‹‹ﬂ                            ﬂ‹‹‹‹€€≤ﬂ   ≤  ‹
+          ‹  ﬂ     €   ﬁ›ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬁ›   €     ﬂ  ‹
+          €‹‹€‹‹‹‹‹€   ﬁ› ascii.art:.pH7.& ph0.of.SiLK ﬁ›   €‹‹‹‹‹€‹‹€
+             ﬂ     ﬂ≤‹‹‹€             . . .            €‹‹‹≤ﬂ     ﬂ
+             ‹          €   last.updated:.11.12.2011   €          ‹
+             ‹          ﬂ€‹‹‹‹‹‹‹‹‹‹‹‹ ‹ ‹ ‹‹‹‹‹‹‹‹‹‹‹€ﬂ          ‹
+                                       ≤ ≤
+                                       ∞ ∞
+
+                                       ﬂ ﬂ
